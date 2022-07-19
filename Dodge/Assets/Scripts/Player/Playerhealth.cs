@@ -13,5 +13,6 @@ public class Playerhealth : MonoBehaviour
     public void Die()
     {
         gameObject.SetActive(false);
+        FindObjectOfType<GameManager>().End();
     }
 }
