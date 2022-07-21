@@ -26,8 +26,8 @@ public class Gun : MonoBehaviour
     private AudioSource _audioSource;
 
 
-    public int RemainAmmoCount; // 남은 전체 탄약
-    public int AmmoInMagazine; // 현재 탄창에 남아있는 탄약
+    private int _remainAmmo; // 남은 전체 탄약
+    private int _ammoInMagazine; // 현재 탄창에 남아있는 탄약
 
     private float _fireDistance = 50f; // 사정거리
     private float _lastFireTime; // 총을 마지막으로 발사한 시점
@@ -45,8 +45,8 @@ public class Gun : MonoBehaviour
     private void OnEnable()
     {
         // 총 상태 초기화
-        RemainAmmoCount = Data.InitialAmmoCount;
-        AmmoInMagazine = Data.MagazineCapacity;
+        _remainAmmo = Data.InitialAmmoCount;
+        _ammoInMagazine = Data.MagazineCapacity;
         CurrentState = State.Ready;
         _lastFireTime = 0f;
     }
@@ -88,8 +88,8 @@ public class Gun : MonoBehaviour
 
         StartCoroutine(ShotEffect(hitPosition));
 
-        --AmmoInMagazine;
-        if (AmmoInMagazine <= 0)
+        --_ammoInMagazine;
+        if (_ammoInMagazine <= 0)
         {
             CurrentState = State.Empty;
         }
@@ -99,6 +99,9 @@ public class Gun : MonoBehaviour
     // 발사 이펙트와 소리를 재생하고 총알 궤적을 그린다
     private IEnumerator ShotEffect(Vector3 hitPosition)
     {
+        ShellEjectEffect.Play();
+        MuzzleFlashEffect.Play();
+
         // 라인 렌더러를 활성화하여 총알 궤적을 그린다
         _bulletLineRenderer.SetPosition(0, FireTransform.position);
         _bulletLineRenderer.SetPosition(1, hitPosition);
@@ -116,13 +119,12 @@ public class Gun : MonoBehaviour
     // 재장전 시도
     public bool TryReload()
     {
-        if (CurrentState != State.Reloading && RemainAmmoCount != 0)
+        if (CurrentState == State.Reloading || _remainAmmo == 0 || _ammoInMagazine == Data.MagazineCapacity)
         {
-            StartCoroutine(ReloadRoutine());
-            return true;
-        }
-        else
             return false;
+        }
+        StartCoroutine(ReloadRoutine());
+        return true;
     }
 
     // 실제 재장전 처리를 진행
@@ -136,8 +138,9 @@ public class Gun : MonoBehaviour
         // 재장전 소요 시간 만큼 처리를 쉬기
         yield return new WaitForSeconds(Data.ReloadTime);
 
-        RemainAmmoCount += AmmoInMagazine - Data.MagazineCapacity;
-        AmmoInMagazine = Data.MagazineCapacity;
+        int ammoToFill = Mathf.Min(Data.MagazineCapacity - _ammoInMagazine, _remainAmmo);
+        _ammoInMagazine += ammoToFill;
+        _remainAmmo -= ammoToFill;
 
         // 총의 현재 상태를 발사 준비된 상태로 변경
         CurrentState = State.Ready;

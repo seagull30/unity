@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3021964ee222b434ebcb56a6848949d0, type: 3}
   m_Name: Gun Data
   m_EditorClassIdentifier: 
-  ShotClip: {fileID: 0}
-  ReloadClip: {fileID: 0}
+  ShotClip: {fileID: 8300000, guid: b82a66dab749415458d1f6600c997095, type: 3}
+  ReloadClip: {fileID: 8300000, guid: 9eca29ee7f8209e419470fcd586aec21, type: 3}
   Damage: 25
   InitialAmmoCount: 100
   MagazineCapacity: 25
