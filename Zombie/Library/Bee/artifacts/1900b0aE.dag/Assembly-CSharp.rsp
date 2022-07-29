@@ -362,8 +362,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AmmoPack.cs"
 "Assets/Scripts/Coin.cs"
-"Assets/Scripts/Enemy.cs"
-"Assets/Scripts/EnemySpawner.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Gun/Gun.cs"
 "Assets/Scripts/Gun/GunData.cs"
@@ -372,7 +370,6 @@
 "Assets/Scripts/IItem.cs"
 "Assets/Scripts/ItemSpawner.cs"
 "Assets/Scripts/LivingEntity.cs"
-"Assets/Scripts/Player/PlayerAnimID.cs"
 "Assets/Scripts/Player/PlayerHealth.cs"
 "Assets/Scripts/Player/PlayerInput.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
@@ -380,8 +377,11 @@
 "Assets/Scripts/program.cs"
 "Assets/Scripts/Rotator.cs"
 "Assets/Scripts/UIManager.cs"
+"Assets/Scripts/Util/AnimID.cs"
 "Assets/Scripts/Util/Extension.cs"
 "Assets/Scripts/Util/SingletonBehaviour.cs"
+"Assets/Scripts/Zombie/Enemy.cs"
+"Assets/Scripts/Zombie/EnemySpawner.cs"
 -langversion:9.0
 
 /deterministic
