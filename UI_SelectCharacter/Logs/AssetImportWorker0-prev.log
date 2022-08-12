@@ -1,0 +1,333 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 15659 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/KGA_21/Documents/새 폴더/unity/UI_SelectCharacter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+11335
+Successfully changed project path to: C:/Users/KGA_21/Documents/새 폴더/unity/UI_SelectCharacter
+C:/Users/KGA_21/Documents/새 폴더/unity/UI_SelectCharacter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 64.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KGA_21/Documents/새 폴더/unity/UI_SelectCharacter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7829 MB
+    Driver:   30.0.13014.8
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006100 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 63.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (544ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004816 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\KGA_21\Documents\새 폴더\unity\UI_SelectCharacter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\KGA_21\Documents\새 폴더\unity\UI_SelectCharacter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (631ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3826.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 2.565200 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.168600 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2085463.356902 seconds.
+  path: Assets/FantasyMonster/Skeleton/Character/Skeleton@Skin.FBX
+  artifactKey: Guid(5a35c5f0a89b9654d897ccd7c8f81bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMonster/Skeleton/Character/Skeleton@Skin.FBX using Guid(5a35c5f0a89b9654d897ccd7c8f81bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8419c3c5be378d53a01ab4785f0501ce') in 0.277746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.643741 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior
+  artifactKey: Guid(c0ad2f523a5e93947b169eceef068a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior using Guid(c0ad2f523a5e93947b169eceef068a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b434497d5e2aed94ace3ae1c72833296') in 0.006474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.427869 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Models
+  artifactKey: Guid(96a96797da844e54ebf41a6421261582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Models using Guid(96a96797da844e54ebf41a6421261582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317a6c861fc760ed47a3148849b864cc') in 0.006026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045159 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Models/Low Poly Warrior.fbx
+  artifactKey: Guid(e53c0edb812c5344698949e4671d1a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Models/Low Poly Warrior.fbx using Guid(e53c0edb812c5344698949e4671d1a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4445afe0f5b69c858907fffd30f53b5b') in 0.103164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.232799 seconds.
+  path: Assets/Ladymito
+  artifactKey: Guid(636ad25080cc57940a91955a0577579d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito using Guid(636ad25080cc57940a91955a0577579d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1114d6b9dab817b518c3deff94961d4e') in 0.006717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.571261 seconds.
+  path: Assets/Ladymito/Free_cat
+  artifactKey: Guid(d1a751741f684c54c8e28e3e351b2c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat using Guid(d1a751741f684c54c8e28e3e351b2c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d6e810321319e0195535ae40daece2') in 0.006431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.333480 seconds.
+  path: Assets/Ladymito/Free_cat/Models
+  artifactKey: Guid(2426469c8fb114f43a0f06be90bf020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat/Models using Guid(2426469c8fb114f43a0f06be90bf020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dc92e94c7804b61448910cf35d1a1e') in 0.002109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056420 seconds.
+  path: Assets/Ladymito/Free_cat/Models/cat.fbx
+  artifactKey: Guid(9b574434f73c46a4eb333235dd556599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat/Models/cat.fbx using Guid(9b574434f73c46a4eb333235dd556599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8137950d05a783990e700789be68e749') in 0.023512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.964693 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.008754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.271337 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials
+  artifactKey: Guid(45d012f315cdb4a4297dbec666241a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials using Guid(45d012f315cdb4a4297dbec666241a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669ab511cba37694ae739407675ce62d') in 0.007151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040852 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/hair black.mat
+  artifactKey: Guid(3de20cd2bfe6ad54995bad6ff86711bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/hair black.mat using Guid(3de20cd2bfe6ad54995bad6ff86711bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47b59187ce0cfd2c00b2e93a750e198') in 0.013952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/wood 1.mat
+  artifactKey: Guid(503c6f670c203db48a23fe90bda5f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/wood 1.mat using Guid(503c6f670c203db48a23fe90bda5f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb05386ebf436acc99973fb65560989') in 0.013280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/steel 2.mat
+  artifactKey: Guid(3184a7f77f4b37649a71f8a71dcffa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/steel 2.mat using Guid(3184a7f77f4b37649a71f8a71dcffa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998d0f9bcc59e1cf3e9a468c54bc422e') in 0.012396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/steel comp.mat
+  artifactKey: Guid(fa6668f31c28422448789850cd2a71fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/steel comp.mat using Guid(fa6668f31c28422448789850cd2a71fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054a8f5efd972314ba93197a262133c2') in 0.012373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/leather.mat
+  artifactKey: Guid(017e81f8bd6f5994badfeaa2e70a9646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/leather.mat using Guid(017e81f8bd6f5994badfeaa2e70a9646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096e990919a244d833ab934692b43730') in 0.012163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/leather 5.mat
+  artifactKey: Guid(921663dfebf9c824f8503f6b137800de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/leather 5.mat using Guid(921663dfebf9c824f8503f6b137800de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b3f9f610db4a885e1ca7fc861b0ade') in 0.011386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/leather 6.mat
+  artifactKey: Guid(5f9b6780b23dcc84a9b41be6ede09fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/leather 6.mat using Guid(5f9b6780b23dcc84a9b41be6ede09fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e86fe444705477995609c05944e1c3') in 0.012863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Materials/skin 1.mat
+  artifactKey: Guid(854880fa387ac3f4783f10fa26a6ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Materials/skin 1.mat using Guid(854880fa387ac3f4783f10fa26a6ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7c8300eaa5cc49dbf43621923b5615') in 0.011980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.241555 seconds.
+  path: Assets/asoliddev - Low Poly Fantasy Warrior/Prefabs/Low Poly Warrior.prefab
+  artifactKey: Guid(f7902c99c75cad34f934860c6b6ddd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Low Poly Fantasy Warrior/Prefabs/Low Poly Warrior.prefab using Guid(f7902c99c75cad34f934860c6b6ddd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be1f7b80b501f6bdb349abc82ae4125') in 0.030862 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004235 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\KGA_21\Documents\새 폴더\unity\UI_SelectCharacter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\KGA_21\Documents\새 폴더\unity\UI_SelectCharacter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (78.7 KB). Loaded Objects now: 3873.
+Memory consumption went from 133.3 MB to 133.3 MB.
+Total: 2.609300 ms (FindLiveObjects: 0.224100 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.230600 ms  DeleteObjects: 0.073800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

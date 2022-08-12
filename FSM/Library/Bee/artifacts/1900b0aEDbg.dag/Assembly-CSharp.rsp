@@ -351,12 +351,14 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Assets/DissolveCtrl.cs"
 "Assets/DissolveEmissionShader/DissolveSphere.cs"
-"Assets/EnemyAI.cs"
-"Assets/ITargetable.cs"
-"Assets/PlayerController.cs"
-"Assets/PlayerCtrl.cs"
+"Assets/Scripts/DataMgr.cs"
+"Assets/Scripts/DissolveCtrl.cs"
+"Assets/Scripts/EnemyAI.cs"
+"Assets/Scripts/EnemyCtrl.cs"
+"Assets/Scripts/ITargetable.cs"
+"Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PlayerCtrl.cs"
 -langversion:9.0
 
 /deterministic
